@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mouni Creations</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, serif;
+  background: #fffaf8;
+  color: #4d3b3b;
+  line-height: 1.6;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: #fffaf8;
+  padding: 16px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f0dfdc;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+  color: #9b6370;
+}
+
+nav a {
+  color: #5d4848;
+  text-decoration: none;
+  margin-left: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(135deg, #fff5f3, #f9edf2);
+}
+
+.hero small {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #a87580;
+  font-family: Arial, sans-serif;
+}
+
+.hero h1 {
+  font-size: 55px;
+  color: #8e5966;
+  margin: 12px 0;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 550px;
+  margin: auto;
+  color: #725b5b;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 28px;
+  background: #9b6370;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+section {
+  padding: 70px 7%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: #8e5966;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #806b6b;
+  margin-bottom: 35px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #f0dfdc;
+  border-radius: 22px;
+  padding: 35px 22px;
+  text-align: center;
+  box-shadow: 0 8px 25px #7d4f5310;
+}
+
+.emoji {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  color: #8e5966;
+  margin-bottom: 8px;
+}
+
+.about {
+  background: #fff1ef;
+  border-radius: 28px;
+  text-align: center;
+  padding: 45px 25px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.insta {
+  display: inline-block;
+  color: #9b6370;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #f8e9ec;
+  color: #765e61;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  nav a {
+    display: none;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">Mouni Creations ✿</div>
+
+  <div>
+    <a href="#creations">Creations</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero">
+
+  <small>Handmade • Crochet • DIY</small>
+
+  <h1>Mouni Creations</h1>
+
+  <p>
+    Little handmade things, created with creativity,
+    patience and lots of love. ♡
+  </p>
+
+  <a
+    class="btn"
+    href="https://instagram.com/Monika_arika"
+    target="_blank">
+    Visit Instagram
+  </a>
+
+</header>
+
+<section id="creations">
+
+  <h2 class="title">My Creations</h2>
+
+  <p class="subtitle">
+    A little collection of things made by hand.
+  </p>
+
+  <div class="cards">
+
+    <div class="card">
+      <div class="emoji">🌻</div>
+      <h3>Crochet Flowers</h3>
+      <p>
+        Sweet handmade flowers and mini bouquets.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🎀</div>
+      <h3>Crochet Accessories</h3>
+      <p>
+        Cute bows, caps, bandanas and more.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="emoji">🧶</div>
+      <h3>Custom Crochet</h3>
+      <p>
+        Made specially for your ideas and occasions.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="emoji">✨</div>
+      <h3>DIY Creations</h3>
+      <p>
+        Creative little projects made with love.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="about">
+
+  <div class="about">
+
+    <h2 class="title">About Mouni</h2>
+
+    <p>
+      Mouni Creations is my little creative corner
+      where crochet, DIY and handmade ideas come together.
+      Every piece is made slowly, carefully and with
+      its own little touch. ♡
+    </p>
+
+  </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+  <h2 class="title">
+    Let's Create Something Cute ✨
+  </h2>
+
+  <p class="subtitle">
+    For custom orders and enquiries,
+    message me on Instagram.
+  </p>
+
+  <a
+    class="btn"
+    href="https://instagram.com/Monika_arika"
+    target="_blank">
+    @Monika_arika
+  </a>
+
+</section>
+
+<footer>
+  © 2026 Mouni Creations • Handmade with love ♡
+</footer>
+
+</body>
+</html>
